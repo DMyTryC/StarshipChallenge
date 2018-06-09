@@ -1,0 +1,41 @@
+@import "main.css";
+
+.desc {
+    padding: 20px;
+    height: 20vh;
+}
+
+.descP {
+    text-align: center;
+    vertical-align: middle;
+    color: #ff4c4d;
+    font-size: 35px;
+}
+
+.search {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+.searchBar {
+    height: 15px;
+    margin: 2px;
+    vertical-align: middle;
+}
+
+.searchButton {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
+
+.results {
+    display: flex;
+    justify-content: center;
+}
+
+.resultsArea {
+    overflow-y: scroll;
+    resize: none;
+}

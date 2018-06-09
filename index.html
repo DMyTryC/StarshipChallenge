@@ -1,12 +1,36 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Starship Challenge</title>
-		<meta charset="UTF-8">
-		<meta name="description" content="">
-		<meta name="viewport" content="width=device-width">
-		<script type="text/javascript" src="lib/main.js"></script>
-	</head>
-	<body>
-	</body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <title>Starship Challenge</title>
+    <link rel="stylesheet" type="text/css" href="style/index.css"/>
+    <link rel="stylesheet" href="resources/icons/css/starwars-glyphicons.css"/>
+    <link rel="icon" href="resources/star_wars_icon.png"/>
+    <script type="text/javascript" src="lib/main.js"></script>
+</head>
+<body>
+<nav class="navMenu">
+    <li><a class="active" href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="documentation.html">Documentation</a></li>
+</nav>
+<div class="desc">
+    <p class="descP">
+        SWAPI Search<br/>
+        The star wars api search
+    </p>
+</div>
+<div class="search">
+    <input class="searchBar" type="text" placeholder="Search something"/>
+    <button class="searchButton" type="submit"><i class="swg swg-reball"></i></button>
+</div>
+<div class="results">
+    <textarea cols="100" rows="20" class="resultsArea" readonly></textarea>
+</div>
+<div class="lightsaber">
+    <!-- Add later https://codepen.io/ncerminara/pen/KzurJ -->
+</div>
+</body>
 </html>

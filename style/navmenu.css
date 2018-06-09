@@ -1,0 +1,30 @@
+/* From w3schools */
+
+.navMenu {
+    list-style-type: none;
+    overflow: hidden;
+    border: black;
+    background-image: url("../resources/hubble_stars.jpg");
+}
+
+li {
+    float: left;
+    padding: 2px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: dimgrey;
+}
+
+.active {
+    background-color: #434343;
+}
+
