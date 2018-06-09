@@ -1,26 +1,41 @@
-/* From w3schools */
 @import "main.css";
 
-.navmenu {
-    list-style-type: none;
-    overflow: hidden;
-    border: black;
-    background-color: lightgrey;
+.desc {
+    padding: 20px;
+    height: 20vh;
 }
 
-li {
-    float : left;
-    margin: 2px;
-}
-
-li a {
-    display: block;
-    color : white;
+.descP {
     text-align: center;
-    padding: 15px;
-    text-decoration: none;
+    vertical-align: middle;
+    color: #ff4c4d;
+    font-size: 35px;
 }
 
-.active {
-    background-color: #00b77a;
+.search {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+.searchBar {
+    height: 15px;
+    margin: 2px;
+    vertical-align: middle;
+}
+
+.searchButton {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
+
+.results {
+    display: flex;
+    justify-content: center;
+}
+
+.resultsArea {
+    overflow-y: scroll;
+    resize: none;
 }
