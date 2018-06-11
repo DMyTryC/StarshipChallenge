@@ -3,4 +3,5 @@
 body {
     font-family: Georgia, sans-serif;
     background-color: #e2e2e2;
+    -webkit-text-size-adjust: auto;
 }

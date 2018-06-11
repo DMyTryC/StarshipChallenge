@@ -9,14 +9,14 @@
 
 li {
     float: left;
-    padding: 2px;
+    padding: 1vh;
 }
 
 li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 15px;
+    padding: 2.5vh;
     text-decoration: none;
 }
 

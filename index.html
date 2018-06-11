@@ -8,7 +8,8 @@
     <link rel="stylesheet" type="text/css" href="style/index.css"/>
     <link rel="stylesheet" href="resources/icons/css/starwars-glyphicons.css"/>
     <link rel="icon" href="resources/star_wars_icon.png"/>
-    <script type="text/javascript" src="lib/main.js"></script>
+    <script type="text/javascript" src="lib/api.js"></script>
+    <script type="text/javascript" src="lib/index.js"></script>
 </head>
 <body>
 <nav class="navMenu">
@@ -18,16 +19,16 @@
 </nav>
 <div class="desc">
     <p class="descP">
-        SWAPI Search<br/>
-        The star wars api search
+        Starship Search<br/>
+        The star wars starship search
     </p>
 </div>
 <div class="search">
-    <input class="searchBar" type="text" placeholder="Search something"/>
-    <button class="searchButton" type="submit"><i class="swg swg-reball"></i></button>
+    <input id="searchBar" class="searchBar" type="text" placeholder="Nom ou modele de vaisseau" autocomplete="off"/>
+    <button id="searchButton" class="button" type="button">Rechercher</button>
 </div>
 <div class="results">
-    <textarea cols="100" rows="20" class="resultsArea" readonly></textarea>
+    <textarea cols="100" rows="20" id="resultArea" class="resultArea" readonly="readonly" autocomplete="off"></textarea>
 </div>
 <div class="lightsaber">
     <!-- Add later https://codepen.io/ncerminara/pen/KzurJ -->
