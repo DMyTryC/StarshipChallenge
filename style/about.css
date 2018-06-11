@@ -1,6 +1,9 @@
 @import "main.css";
 
 .desc {
-    padding: 20px;
-    height: 20vh;
+    margin-top: 5vh;
+    color: #ff4c4d;
+    font-size: 3vh;
+    display: block;
+    text-align: center;
 }
