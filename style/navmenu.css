@@ -3,7 +3,6 @@
 .navMenu {
     list-style-type: none;
     overflow: hidden;
-    border: black;
     background-image: url("../resources/hubble_stars.jpg");
 }
 
@@ -16,6 +15,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
+    font-size: 3vh;
     padding: 2.5vh;
     text-decoration: none;
 }
